@@ -157,7 +157,7 @@ body {
   min-height: auto;
   display: flex;
   align-items: center;
-  padding: 132px 0 40px;
+  padding: 132px 0 32px;
   overflow: hidden;
 }
 
@@ -265,7 +265,7 @@ body {
 
 /* Services Section */
 .services {
-  padding: 40px 0;
+  padding: 32px 0;
   background: var(--bg);
 }
 
@@ -448,7 +448,7 @@ body {
 
 /* Engagement Section */
 .engagement {
-  padding: 40px 0;
+  padding: 32px 0;
   background: var(--bg);
 }
 
@@ -479,8 +479,14 @@ body {
 
 /* Contact Section */
 .contact {
-  padding: 40px 0;
+  padding: 32px 0;
   background: var(--white);
+}
+
+.contact .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact-lead {
@@ -493,11 +499,12 @@ body {
 .contact-info {
   text-align: center;
   margin-bottom: 18px;
-  padding: 24px 32px;
+  padding: 24px 40px;
   background: rgba(0, 180, 216, 0.04);
   border-radius: var(--radius-lg);
   border: 1px solid rgba(0, 180, 216, 0.12);
-  display: inline-block;
+  width: 100%;
+  max-width: 400px;
 }
 
 .contact-info p {
