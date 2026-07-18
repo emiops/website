@@ -46,6 +46,7 @@ body {
 
 section {
   scroll-margin-top: 88px;
+  display: flow-root;
 }
 
 .skip-link {
@@ -211,7 +212,7 @@ button:focus-visible {
   min-height: auto;
   display: flex;
   align-items: center;
-  padding: 112px 0 48px;
+  padding: 112px 0 28px;
   overflow: hidden;
 }
 
@@ -319,7 +320,7 @@ button:focus-visible {
 
 /* Services Section */
 .services {
-  padding: 56px 0;
+  padding: 40px 0 52px;
   background: var(--bg);
 }
 
@@ -443,7 +444,7 @@ button:focus-visible {
 
 /* Engagement Section */
 .engagement {
-  padding: 56px 0;
+  padding: 48px 0;
   background: var(--bg);
 }
 
@@ -474,7 +475,7 @@ button:focus-visible {
 
 /* Contact Section */
 .contact {
-  padding: 56px 0;
+  padding: 48px 0;
   background: var(--white);
 }
 
@@ -578,12 +579,13 @@ button:focus-visible {
   .services,
   .engagement,
   .contact {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
 
   .hero {
     padding-top: 104px;
+    padding-bottom: 24px;
   }
 
   .hero-ctas {
